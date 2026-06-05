@@ -149,7 +149,38 @@ header {
 
 #interact { font-size: 1em}
 
- 
+ .hero{
+
+  min-height:100vh;
+
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+
+  align-items:center;
+
+  gap:4rem;
+
+  padding:0 8vw;
+
+  position:relative;
+
+  overflow:hidden;
+
+  background:
+  radial-gradient(
+      circle at top right,
+      rgba(143,240,255,.08),
+      transparent 30%
+  ),
+
+  linear-gradient(
+      180deg,
+      #0f1028 0%,
+      #24154a 35%,
+      #4b2a82 70%,
+      #7da1e3 100%
+  );
+}
 
 footer {
   background: linear-gradient(-45deg, #412867, #333, #532867, #333);
