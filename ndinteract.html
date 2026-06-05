@@ -1,43 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TDKABACMintro</title>
-    <link rel="stylesheet" href="ndinteract.css">
-    <link rel="icon" type="image/svg+xml" href="./stuff/Alienicon.svg">
+  <meta charset="utf-8" />
+  <meta content="IE-edge" http-equiv="X-UA-compatible" />
+  <meta content="width=device-width,
+                                   initial-scale=1.0" name="viewport" />
+  <title>TDKABACMintro</title>
+  <link href="ndintro.css" rel="stylesheet" />
+  <link href="./stuff/Alienicon.svg" rel="icon" type="image/svg" />
+  <link href="./stuff/opendyslexic-0.92/OpenDyslexic-Regular.otf" rel="stylesheet" />
 </head>
 
 <body>
-
-    <header>
-        <div class="topnav">
-
-            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\index.html">NeuroDiversity</a>
-            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\asdpage.html">Autism</a>
-            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\adhdpage.html">ADHD</a>
-            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\spdpage.html">Sensory Processing Disorder</a>
-            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\ldspage.html">Learning Disabilities</a>
-
-        </div>
-        <div class="menu-btn" onclick="document.body.classList.toggle('active-state')">&#9776;</div>
-
-    </header>
-
-    <main>
-
-        <div><img type="image/svg" type="button" onclick="navPicFunction()" src="./stuff/Alienicon.svg" id="navImage"
-                alt="Menu / Scroll to Top"></div>
-        <div id="settingsBar">
-            <h3>Settings</h3>
-    <button id="dyslexicfont" class="settingsbtn">
-    <img src="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\stuff\dyslexia-ezgif.com-optimize.gif" alt="Dyslexia Friendly" class="button-icon">
-    Dyslexic Friendly
-</button>
-<br>
-<button id="interact" class="settingsbtn">
+  <header>
+    <div class="topnav">
+      <a class="active" href="./index.html">NeuroDiversity</a>
+      <a href="./asdpage.html">Autism</a>
+      <a href="./adhdpage.html">ADHD</a>
+      <a href="./spdpage.html">Sensory Processing Disorder</a>
+      <a href="./ldspage.html">Learning Disabilities</a>
+    </div>
+    <div class="menu-btn" onclick="document.body.classList.toggle('active-state')">☰</div>
+  </header>
+  <main>
+    <div><img alt="Menu / Scroll to Top" id="navImage" onclick="navPicFunction()" src="./stuff/Alienicon.svg"
+        type="button" /></div>
+    <div id="settingsBar">
+      <h3>Settings</h3>
+      <button class="settingsbtn" id="dyslexicfont">
+        <img alt="Dyslexia Friendly" class="button-icon" src="./stuff/dyslexia-ezgif.com-optimize.gif" />
+        Dyslexic Friendly
+      </button>
+      <br />
+      <button class="settingsbtn" id="interact">
+        <img alt="interact" class="button-icon" src="./stuff/speaking-ezgif.com-optimize.gif" />
+        Say Hello !
+      </button>
+    </div>
     <img src="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\stuff\speaking-ezgif.com-optimize.gif" alt="interact" class="button-icon">
     Say Hello !
 </button>
