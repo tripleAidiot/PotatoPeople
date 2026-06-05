@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>TDKABACMintro</title>
+    <link href="ndadhd.css" rel="stylesheet" />
+    <link href="./stuff/Alienicon.svg" rel="icon" type="image/svg+xml" />
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="./index.html">NeuroDiversity</a>
+            <a href="./asdpage.html">Autism</a>
+            <a class="active" href="./adhdpage.html">ADHD</a>
+            <a href="./spdpage.html">Sensory Processing Disorder</a>
+            <a href="./ldspage.html">Learning Disabilities</a>
+        </div>
+        <div class="menu-btn" onclick="document.body.classList.toggle('active-state')">☰</div>
+    </header>
+    <main>
+        <div><img alt="Menu / Scroll to Top" id="navImage" onclick="navPicFunction()" src="./stuff/Alienicon.svg"
+                type="button" /></div>
+        <div id="settingsBar">
+            <h3>Settings</h3>
+            <button class="settingsbtn" id="dyslexicfont">
+                <img alt="Dyslexia Friendly" class="button-icon" src="./stuff/dyslexia-ezgif.com-optimize.gif" />
+                Dyslexic Friendly
+            </button>
+            <br />
+            <button class="settingsbtn" id="interact">
+                <img alt="interact" class="button-icon" src="./stuff/speaking-ezgif.com-optimize.gif" />
+                Say Hello !
+            </button>
+        </div>
+        <section>
+            <article>
+                <section id="adhd-overview">
+                    <h1>Attention Deficit Hyperactivity Disorder</h1>
+                    <img alt="People" class="leftside" id="img-20260603-wa0011" src="./stuff/IMG-20260603-WA0011.jpg" />
+                    <p>
+                        Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental condition that affects
+                        how a person regulates attention, activity levels, impulses, emotions, and executive functioning
+                        skills such as planning, organization, and time management.<br /><br />
+                        ADHD is not caused by laziness, poor parenting, or a lack of intelligence. It is a medical
+                        condition involving differences in brain development and functioning. ADHD can affect children,
+                        adolescents, and adults, and symptoms may change over time.<br /><br />
+                        People with ADHD often have strengths such as creativity, curiosity, problem-solving abilities,
+                        energy, and the capacity to think outside the box. However, they may also experience challenges
+                        in school, work, relationships, and daily life.<br /><br />
+                    </p>
+                    <ol>
+                        <li><a href="#adhd-types">Types of ADHD</a></li><br />
+                        <li><a href="#internal-experience">The Internal Experience of ADHD</a></li><br />
+                        <li><a href="#daily-life-impact">How ADHD Affects Daily Life</a></li><br />
+                        <li><a href="#managing-adhd">Strategies for Managing ADHD</a></li><br />
+                        <li><a href="#supporting-someone-with-adhd">How to Support Someone With ADHD</a></li><br />
+                        <li><a href="#co-occurring-conditions">Common Co-Occurring Conditions</a></li><br />
+                    </ol>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+                <section id="adhd-types"><img alt="People" class="leftside" id="brainworm" src="./stuff/brainworm.jpg" />
+                    <h2>Types of ADHD</h2>
+                    
+                    <p>
+                        ADHD is categorized into three presentations based on the symptoms that are most
+                        prominent:<br />
+                        <em></em>
+                    <ol>
+                        <em>
+                            <li><a href="#adhd-inattentive">Predominantly Inattentive Presentation</a></li>
+                        </em>
+                        <em>
+                            <li><a href="#adhd-hyperactive">Predominantly Hyperactive-Impulsive Presentation</a></li>
+                        </em>
+                        <em>
+                            <li><a href="#adhd-combined">Combined Presentation</a></li>
+                        </em>
+                    </ol>
+                    <article class="adhd-type" id="adhd-inattentive">
+                        <h3>1. Predominantly Inattentive Presentation</h3>
+                        <p>
+                            Individuals primarily struggle with attention, focus, organization, and completing tasks.
+                        </p>
+                        <h4>Common Characteristics</h4>
+                        <div class="two-column">
+                            <div>
+                                <b><em>In Children</em></b><img alt="People" class="rightside" id="daydreamcartoon" src="./stuff/daydreamcartoon.jpg" />
+                                <ul>
+                                    <li>Frequently loses items</li><br />
+                                    <li>Easily distracted</li><br />
+                                    <li>Difficulty following instructions</li><br />
+                                    <li>Appears forgetful</li><br />
+                                    <li>Often seems not to be listening</li><br />
+                                    <li>Often fails to give close attention to details or makes careless mistakes.</li>
+                                    <br />
+                                    <li>Difficulty sustaining attention in tasks or play activities.</li><br />
+                                    <li>Does not seem to listen when spoken to directly.</li><br />
+                                    <li>Fails to follow through on instructions and finish schoolwork or chores.</li>
+                                    <br />
+                                    <li>Difficulty organizing tasks and activities.</li><br />
+                                    <li>Avoids tasks requiring sustained mental effort.</li><br />
+                                    <li>Loses items necessary for tasks or activities.</li><br />
+                                    <li>Easily distracted by external stimuli.</li><br />
+                                    <li>Forgetful in daily activities.</li><br />
+                                </ul>
+                            </div>
+                            <img alt="People" class="leftside" id="adhdhyperfocusmeme"
+                            src="./stuff/adhdhyperfocusmeme.jpg" />
+                            <div>
+                                <b><em>In Adults</em></b>
+                                <ul>
+                                    <li>Makes careless mistakes at work or during activities.</li><br />
+                                    <li>Difficulty sustaining attention in tasks.</li><br />
+                                    <li>Does not seem to listen when spoken to directly.</li><br />
+                                    <li>Fails to complete work projects or household responsibilities.</li><br />
+                                    <li>Difficulty organizing tasks and activities.</li><br />
+                                    <li>Avoids tasks requiring prolonged mental effort.</li><br />
+                                    <li>Loses keys, wallets, paperwork, or other important items.</li><br />
+                                    <li>Easily distracted by external stimuli.</li><br />
+                                    <li>Forgetful in daily activities.</li><br />
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="adhd-type" id="adhd-hyperactive">
+                        <h3>2. Predominantly Hyperactive-Impulsive Presentation</h3>
+                        <img alt="People" class="rightside" id="adhdcartoon" src="./stuff/adhdcartoon.jpg" />
+
+                        <p>
+                            Individuals primarily struggle with excessive activity levels and impulse control.
+                        </p>
+                        <h4>Common Characteristics</h4>
+                        <div class="two-column">
+                            <div>
+                                <b><em>In Children</em></b>
+                                <ul>
+                                    <li>Constant movement or fidgeting</li><br />
+                                    <li>Difficulty sitting still</li><br />
+                                    <li>Excessive talking</li><br />
+                                    <li>Interrupting others</li><br />
+                                    <li>Acting before thinking</li><br />
+                                    <li>Fidgets with hands or feet or squirms in seat.</li><br />
+                                    <li>Leaves seat when expected to remain seated.</li><br />
+                                    <li>Runs about or climbs in inappropriate situations.</li><br /> <div class="rightside" ><iframe
+                                allowfullscreen="" class="giphy-embed" 
+                                src="https://giphy.com/embed/wbrkJsfeirWs8" ></iframe>
+                        </div>
+                                    <li>Difficulty engaging in leisure activities quietly.</li><br />
+                                    <li>Acts as if driven by a motor.</li><br />
+                                    <li>Talks excessively.</li><br />
+                                    <li>Blurts out answers before questions are completed.</li><br />
+                                    <li>Difficulty waiting their turn.</li><br />
+                                    <li>Interrupts or intrudes on others.</li><br />
+                                </ul>
+                            </div>
+                            <div>
+                                <b><em>In Adults</em></b>
+                                <ul>
+                                    <li>Fidgets with hands or feet or squirms in seat.</li><br />
+                                    <li>Leaves seat when remaining seated is expected.</li><br />
+                                    <li>Feels restless or unable to stay still.</li><br />
+                                    <li>Difficulty relaxing quietly.</li><br />
+                                    <li>Feels uncomfortable being inactive for long periods.</li><br />
+                                    <li>Talks excessively.</li><br />
+                                    <li>Blurts out answers before questions are completed.</li><br />
+                                    <li>Difficulty waiting in line or taking turns.</li><br />
+                                    <li>Interrupts or intrudes on others.</li><br />
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="adhd-type" id="adhd-combined">
+                        <h3>3. Combined Presentation</h3>
+                        <div class="rightside" ><iframe
+                                allowfullscreen=""  
+                                src="https://giphy.com/embed/J5AhhrPHSpDdHB55vF" ></iframe>
+                        </div>
+                
+                        <p>
+                            This is the most common presentation and includes significant symptoms of both inattention
+                            and hyperactivity-impulsivity.
+                        </p>
+                        <h4>Common Characteristics</h4>
+                        <ul>
+                            <li>Difficulty focusing</li><br />
+                            <li>Disorganization</li><br />
+                            <li>Impulsive behavior</li><br />
+                            <li>Hyperactivity or restlessness</li><br />
+                            <li>Challenges with self-regulation</li><br />
+                        </ul>
+                    </article>
+                    </p>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+                <section id="internal-experience">
+                    <div class="adhd-collage leftside">
+                        <img alt="Tea Away" class="adhd-base" id="teaway" src="./stuff/teaway.jpg" />
+                        <img alt="Colours" class="adhd-top-left" id="colours" src="./stuff/colours.jpg" />
+                        <img alt="Lone" class="adhd-bottom-left" id="lone" src="./stuff/lone.jpg" />
+                        <img alt="Distracted Cat" class="adhd-top-right" id="adhdcatdistract"
+                            src="./stuff/adhdcatdistract.jpg" />
+                    </div>
+                    <h2>The Internal Experience of ADHD</h2>
+                    <p>
+                        ADHD is often misunderstood as simply being distracted, hyperactive, or disorganized. However,
+                        the internal experience is much more complex. Many people with ADHD are working extremely hard
+                        to manage attention, emotions, impulses, and daily responsibilities, even when their efforts are
+                        not visible to others.
+                    </p>
+                    <article>
+                        <h3>Attention Is Not a Lack of Focus</h3>
+                    
+                        <p>
+                            People with ADHD do not necessarily have a deficit of attention. Instead, they often have
+                            difficulty regulating attention.
+                        </p>
+                        <ul>
+                            <li>Struggling to focus on tasks that feel boring or repetitive.</li><br />
+                            <li>Becoming intensely focused on stimulating activities.</li><br />
+                            <li>Having attention shift unexpectedly.</li><br />
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>The Constant Noise of Thoughts</h3>
+                        <ul>
+                            <li>Multiple thoughts occurring simultaneously.</li><br />
+                            <li>Songs, conversations, ideas, and reminders competing for attention.</li><br />
+                            <li>Difficulty mentally switching off.</li><br />
+                        </ul>
+                    </article>
+                    <article><img alt="People" class="leftside" id="procrasinationation"
+                            src="./stuff/procrasinationation.jpg" />
+                        <h3>Executive Dysfunction</h3>
+                        
+                        <p>
+                            Executive functions help us plan, organize, prioritize, initiate, and complete tasks.
+                        </p>
+                        <ul>
+                            <li>Planning</li><br />
+                            <li>Prioritizing</li><br />
+                            <li>Organizing</li><br />
+                            <li>Starting tasks</li><br />
+                            <li>Monitoring progress</li><br />
+                            <li>Completing tasks</li><br />
+                        </ul>
+                    </article>
+                    <article>
+                        <img alt="People" class="rightside" id="timerunning" src="./stuff/timerunning.jpg" />
+                        <h3>Time Blindness</h3>
+
+                        <ul>
+                            <li>Underestimating how long tasks will take.</li><br />
+                            <li>Losing track of time.</li><br />
+                            <li>Difficulty sensing the passage of time.</li><br />
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Emotional Intensity</h3><img alt="People" class="rightside" id="left-out" src="./stuff/left out.jpg" />
+                        <ul>
+                            <li>Strong emotional reactions.</li><br />
+                            <li>Difficulty calming down.</li><br />
+                            <li>Sensitivity to criticism or rejection.</li><br />
+                        </ul>
+                   
+                        
+                        <h3>Rejection Sensitivity</h3>
+                        
+                        <p>
+                            Some people with ADHD experience intense emotional pain when they perceive criticism,
+                            rejection, or exclusion.
+                        </p>
+                    </article>
+                    
+                    <article>
+                        <h3>Chronic Mental Effort</h3>
+                        <ul>
+                            <li>Managing appointments</li><br />
+                            <li>Completing paperwork</li><br />
+                            <li>Following routines</li><br />
+                            <li>Staying organized</li><br />
+                        </ul>
+                    </article>
+                    <img alt="People" class="rightside" id="identity" src="./stuff/identity.jpg" />
+                    <article>
+                        <h3>Feeling Inconsistent</h3>
+                       
+                        <p>
+                            Many people with ADHD can perform exceptionally well one day and struggle with the same task
+                            the next.
+                        </p>
+                    </article>
+                    <article>
+                        <img alt="People" class="leftside" id="procrasinationation-2"
+                            src="./stuff/procrasinationation.jpg" />
+                        <h3>The Impact on Self-Esteem</h3>
+                        <src="c:\users\fitzy\tdkabacmpractice\tdkabacmweb\stuff\procrasinationation.jpg" alt="People">
+                            <ul>
+                                <li>Forgetting things</li><br />
+                                <li>Missing deadlines</li><br />
+                                <li>Being told to "try harder"</li><br />
+                                <li>Being labeled careless or lazy</li><br />
+                            </ul>
+                        </src="c:\users\fitzy\tdkabacmpractice\tdkabacmweb\stuff\procrasinationation.jpg">
+                    </article>
+                    <article> <img alt="People" class="leftside" id="citydream" src="./stuff/citydream.jpg" />
+                        <h3>Strengths Often Associated With ADHD</h3>
+                        <img alt="People" class="rightside" id="crayon" src="./stuff/crayon.jpg" />
+                        <ul>
+                            <li>Creativity</li><br />
+                            <li>Curiosity</li><br />
+                            <li>Innovation</li><br />
+                            <li>Adaptability</li><br />
+                            <li>High energy</li><br />
+                            <li>Enthusiasm</li><br />
+                            <li>Strong problem-solving skills</li><br />
+                            <li>Thinking outside conventional patterns</li><br />
+                            <li>Deep engagement with meaningful interests</li><br />
+                        </ul>
+                    </article>
+                    <article><img alt="People" class="leftside" id="adhdcatdistract-2" src="./stuff/adhdcatdistract.jpg" />
+                        <h3>What People With ADHD Often Wish Others Understood</h3>
+                        <ul>
+                            <li>Their difficulties are real, even when invisible.</li><br />
+                            <li>Forgetfulness is not the same as not caring.</li><br />
+                            <li>Struggling to start a task is different from choosing not to do it.</li><br />
+                            <li>Effort does not always produce consistent results.</li><br />
+                            <li>Support and accommodations can make a significant difference.</li><br />
+                        </ul>
+                    </article>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+                <section id="daily-life-impact">
+                    <h2>How ADHD Affects Daily Life</h2>
+                    <p>
+                        ADHD can influence many areas of life, including:
+                    </p>
+                    
+                    <img class="rightside" id="tangledup" src="./stuff/tangledup.jpg" />
+                    <ul>
+                        <li>Academic performance</li><br />
+                        <li>Workplace productivity</li><br />
+                        <li>Time management</li><br />
+                        <li>Emotional regulation</li><br />
+                        <li>Financial management</li><br />
+                        <li>Relationships and communication</li><br />
+                        <li>Self-esteem and confidence</li><br />
+                    </ul>
+                    <p>
+                        Not everyone experiences ADHD in the same way. Some individuals primarily struggle with focus,
+                        while others face greater challenges with impulsivity, emotional regulation, or organization.
+                    </p>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+                <section id="managing-adhd"><img class="leftside" id="supportadhd" src="./stuff/supportadhd.jpg" />
+                    <h2>Strategies for Managing ADHD</h2>
+                    
+                    
+                    <h3>For Individuals With ADHD</h3>
+                    <article class="strategy-card">
+                        <h4>1. Build External Structure</h4>
+                        <p>Use:</p>
+                        <ul>
+                            <li>Calendars</li><br />
+                            <li>Digital reminders</li><br />
+                            <li>To-do lists</li><br />
+                            <li>Visual schedules</li><br />
+                            <li>Time-blocking systems</li><br />
+                        </ul>
+                        <p>
+                            External systems reduce reliance on memory and attention.
+                        </p>
+                    </article>
+                    <img class="rightside" id="taskparalysiswolfies" src="./stuff/taskparalysiswolfies.jpg" />
+                    <article class="strategy-card">
+                        <h4>2. Break Tasks Into Smaller Steps</h4>
+                        <p>
+                            Large projects can feel overwhelming.
+                        </p>
+                        <div class="example-box">
+                            <p>Instead of:</p>
+                            <p>"Clean the house."</p>
+                            <p>Try:</p>
+                            <ol>
+                                <li>Pick up laundry</li><br />
+                                <li>Make the bed</li><br />
+                                <li>Vacuum one room</li><br />
+                            </ol>
+                        </div>
+                        <p>
+                            Smaller steps create momentum and reduce avoidance.
+                        </p>
+                    </article>
+                    <article class="strategy-card">
+                        <h4>3. Use Timers</h4>
+                        <p>
+                            Techniques such as the Pomodoro Method can improve focus.
+                        </p>
+                        <div class="example-box">
+                            Eg-
+                            <ul>
+                                <li>Work for 25 minutes</li><br />
+                                <li>Take a 5-minute break</li><br />
+                                <li>Repeat</li><br />
+                            </ul>
+                        </div>
+                    
+                        <img class="leftside" id="teastars" src="./stuff/teastars.png" />
+                        <h4>4. Reduce Distractions</h4>
+                        <img class="rightside" id="lockin" src="./stuff/lockin.jpg" />
+                        <p>Helpful strategies include:</p>
+                        <ul>
+                            <li>Noise-canceling headphones</li><br />
+                            <li>Silent phone settings</li><br />
+                            <li>Dedicated workspaces</li><br />
+                            <li>Website blockers</li><br />
+                        </ul>
+                    </article>
+                <img class="rightside" id="sleeep" src="./stuff/sleeep.jpg" />
+                    <article class="strategy-card">
+                        <h4>5. Prioritize Sleep</h4>
+                        
+                        <p>
+                            Sleep deprivation can worsen ADHD symptoms.
+                        </p>
+                        <p>
+                            Maintaining a consistent sleep schedule supports attention, memory, and emotional
+                            regulation.
+                        </p>
+                 
+                        <h4>6. Exercise Regularly</h4>
+                       
+                        <p>
+                            Physical activity can improve concentration, mood, stress management, and executive
+                            functioning.
+                        </p>
+                    </article>
+                    <img class="leftside" id="exercise" src="./stuff/exercise..........jpg" />
+                    <article class="strategy-card">
+                        <h4>7. Seek Professional Support</h4>
+                        <p>Treatment options may include:</p>
+                        <ul>
+                            <li>ADHD coaching</li><br />
+                            <li>Behavioral therapy</li><br />
+                            <li>Cognitive Behavioral Therapy (CBT)</li><br />
+                            <li>Medication when appropriate</li><br />
+                            <li>Psychoeducation</li><br />
+                        </ul>
+                    </article>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+                <section id="supporting-someone-with-adhd">
+                    <img class="leftside" id="tpips" src="./stuff/tpips.jpg" />
+                
+                    
+                    <h2>How to Support Someone With ADHD</h2>
+                    <article class="support-tip">
+                        <h3>1. Communicate Clearly</h3>
+                        <p>
+                            Provide concise instructions and avoid overwhelming information.
+                        </p>
+                        <div class="example-box">
+                            <p>Instead of: "Clean your room."</p>
+                            <p>Try: "Put your clothes in the hamper first."</p>
+                        </div>
+                    </article>
+                    <article class="support-tip">
+                        <h3>2. Avoid Judging Symptoms as Character Flaws</h3>
+                        <p>
+                            ADHD-related behaviors are often neurological challenges rather than intentional choices.
+                        </p>
+                        <div class="example-box">
+                            <p>Instead of: "You just need to try harder."</p>
+                            <p>Consider: "What support would help you complete this task?"</p>
+                        </div>
+                    </article>
+                    <img class="leftside" id="care" src="./stuff/care.jpg" />
+                    <article class="support-tip">
+                        <h3>3. Encourage Strengths</h3>
+                        <p>
+                            Recognize talents, creativity, problem-solving abilities, persistence, and achievements.
+                        </p>
+                        <p>
+                            Positive reinforcement is often more effective than criticism.
+                        </p>
+                    </article>
+                    <article class="support-tip">
+                        <h3>4. Be Patient With Time and Organization Challenges</h3>
+                        <p>
+                            Reminders, visual cues, and collaborative planning can help reduce stress and
+                            misunderstandings.
+                        </p>
+                    </article>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+                <section id="co-occurring-conditions">
+        
+                    <img class="rightside" id="attention" src="./stuff/attention.jpg" />
+                    <h2>Common Co-Occurring Conditions</h2>
+                    <p>
+                        Many people with ADHD also experience other mental health or neurodevelopmental conditions.
+                    </p>
+                     
+                    <article class="condition-card">
+                        <h3>Anxiety Disorders</h3>
+                        <p>
+                            People may worry excessively, avoid situations, or experience physical symptoms of anxiety.
+                        </p>
+                        <div class="example-box">
+                            Eg-
+                            <p>
+                                A student procrastinates not because of laziness but because anxiety about making
+                                mistakes prevents them from starting.
+                            </p>
+                        </div>
+                    </article>
+                   
+                    <img class="leftside" id="blue" src="./stuff/blue.jpg" />
+                    <article class="condition-card">
+                        <h3>Depression</h3>
+                        <p>
+                            Repeated struggles, criticism, and frustration can contribute to low mood, hopelessness, and
+                            reduced motivation.
+                        </p>
+                    </article>
+                    <article class="condition-card">
+                        <h3>Learning Disorders</h3>
+                        <p>
+                            Difficulties with reading, writing, or mathematics may occur alongside ADHD.
+                        </p>
+                    </article>
+                    <article class="condition-card">
+                        <h3>Autism Spectrum Disorder (ASD)</h3>
+                        <p>
+                            Some individuals meet diagnostic criteria for both ADHD and autism.
+                        </p>
+                    </article>
+                    <article class="condition-card">
+                        <h3>Oppositional Defiant Disorder (ODD)</h3>
+                        <p>
+                            Children may frequently argue, resist authority, or become easily frustrated.
+                        </p>
+                    </article>
+                    <article class="condition-card">
+                        <h3>Substance Use Disorders</h3>
+                        <p>
+                            Some individuals may use alcohol, nicotine, or other substances in attempts to manage
+                            symptoms or emotional distress.
+                         <img class="rightside" id="stuff/sleepdeprivedfrog" src="./stuff/sleepdeprivedfrog.jpg" />
+                        <p>
+                            Early identification and treatment can reduce this risk.
+                        </p>
+                    
+                        <h3>Sleep Disorders</h3>
+                        <p>
+                            Sleep difficulties are common and can worsen ADHD symptoms.
+                        </p>
+                    </article>
+                </section>
+                <br />
+                <hr class="light" />
+                <br />
+            </article>
+        </section>
+        <div class="side-menu">
+            <a class="toggler" href="#" onclick="document.body.classList.toggle('active-state')">
+                <span>x</span>
+            </a>
+            <ul>
+                <li><a href="./index.html">NeuroDiversity</a></li>
+                <li><a href="./asdpage.html">Autism</a></li>
+                <li><a class="active" href="./adhdpage.html">ADHD</a></li>
+                <li><a href="./spdpage.html">Sensory Processing Disorder</a></li>
+                <li><a href="./ldspage.html">Learning Disabilities</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="./index.html">NeuroDiversity</a>
+            <a href="./asdpage.html">Autism</a>
+            <a href="./adhdpage.html">ADHD</a>
+            <a href="./spdpage.html">Sensory Processing Disorder</a>
+            <a href="./ldspage.html">Learning Disabilities</a>
+        </div>
+        <br />
+        <br />
+        <div class="footer-text">
+            © 2026 tripleAidiot. All rights reserved.
+        </div>
+    </footer>
+    <script src="ndtotal.js"></script>
+</body>
+
+</html>

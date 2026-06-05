@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDKABACMintro</title>
+    <link rel="stylesheet" href="ndinteract.css">
+    <link rel="icon" type="image/svg+xml" href="./stuff/Alienicon.svg">
+</head>
+
+<body>
+
+    <header>
+        <div class="topnav">
+
+            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\index.html">NeuroDiversity</a>
+            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\asdpage.html">Autism</a>
+            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\adhdpage.html">ADHD</a>
+            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\spdpage.html">Sensory Processing Disorder</a>
+            <a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\ldspage.html">Learning Disabilities</a>
+
+        </div>
+        <div class="menu-btn" onclick="document.body.classList.toggle('active-state')">&#9776;</div>
+
+    </header>
+
+    <main>
+
+        <div><img type="image/svg" type="button" onclick="navPicFunction()" src="./stuff/Alienicon.svg" id="navImage"
+                alt="Menu / Scroll to Top"></div>
+        <div id="settingsBar">
+            <h3>Settings</h3>
+    <button id="dyslexicfont" class="settingsbtn">
+    <img src="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\stuff\dyslexia-ezgif.com-optimize.gif" alt="Dyslexia Friendly" class="button-icon">
+    Dyslexic Friendly
+</button>
+<br>
+<button id="interact" class="settingsbtn">
+    <img src="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\stuff\speaking-ezgif.com-optimize.gif" alt="interact" class="button-icon">
+    Say Hello !
+</button>
+        </div>
+        <h1 id="greeting" >Greetings! Hi!</h1>
+        <section class="account-section">
+            <h1>Create an Account</h1>
+            <form id="signupForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Or sign up with Gmail:</p>
+            <button id="gmailBtn">Sign Up with Gmail</button>
+        </section>
+
+        <hr class="light">
+
+        <section class="comment-section">
+            <h1>Leave a Comment</h1>
+            <form id="commentForm">
+                <input type="text" id="commentName" placeholder="Your Name">
+                <textarea id="commentText" placeholder="Your comment..." required></textarea>
+                <button type="submit">Submit Comment</button>
+            </form>
+            <div id="commentsList">
+                <!-- Comments will appear here -->
+            </div>
+        </section>
+     <div class="side-menu">
+            <a class="toggler" href="#" onclick="document.body.classList.toggle('active-state')">
+                <span>x</span>
+            </a>
+            <ul>
+                <li><a class="active"
+                        href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\index.html">NeuroDiversity</a></li>
+                <li><a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\asdpage.html">Autism</a></li>
+                <li><a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\adhdpage.html">ADHD</a></li>
+                <li><a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\spdpage.html">Sensory Processing Disorder</a>
+                </li>
+                <li><a href="C:\Users\Fitzy\tdkabacmpractice\tdkabacmweb\ldspage.html">Learning Disabilities</a></li>
+            </ul>
+        </div>
+
+
+    </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">NeuroDiversity</a>
+      <a href="asdpage.html">Autism</a>
+      <a href="adhdpage.html">ADHD</a>
+      <a href="spdpage.html">Sensory Processing Disorder</a>
+      <a href="ldspage.html">Learning Disabilities</a>
+    </div>
+    <br>
+    <br>
+    <div class="footer-text">
+      &copy; 1016 tripleAidiot. All rights reserved.
+    </div>
+  </footer>
+
+    <script src="ndtotal.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>TDKABACMintro</title>
+    <link href="ndspd.css" rel="stylesheet" />
+    <link href="./stuff/Alienicon.svg" rel="icon" type="image/svg+xml" />
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="./index.html">NeuroDiversity</a>
+            <a href="./asdpage.html">Autism</a>
+            <a href="./adhdpage.html">ADHD</a>
+            <a class="active" href="./spdpage.html">Sensory Processing Disorder</a>
+            <a href="./ldspage.html">Learning Disabilities</a>
+        </div>
+        <div class="menu-btn" onclick="document.body.classList.toggle('active-state')">☰</div>
+    </header>
+    <main>
+        <div><img alt="Menu / Scroll to Top" id="navImage" onclick="navPicFunction()" src="./stuff/Alienicon.svg"
+                type="button" /></div>
+        <div id="settingsBar">
+            <h3>Settings</h3>
+            <button class="settingsbtn" id="dyslexicfont">
+                <img alt="Dyslexia Friendly" class="button-icon" src="./stuff/dyslexia-ezgif.com-optimize.gif" />
+                Dyslexic Friendly
+            </button>
+            <br />
+            <button class="settingsbtn" id="interact">
+                <img alt="interact" class="button-icon" src="./stuff/speaking-ezgif.com-optimize.gif" />
+                Say Hello !
+            </button>
+        </div>
+        <section>
+            <h1>Sensory Processing Disorder</h1>
+            <section id="spd-overview">
+                <h3>What is sensory processing disorder?</h3>
+                <p>
+                    Sensory processing disorder (SPD) is a difference in the way your brain understands and responds to
+                    information from your senses. This includes what you see, hear, smell, taste and touch. It can also
+                    affect your movement.
+                </p>
+                <p>
+                    <a href="#recognising-spd-in-children">Healthcare providers and parents typically identify SPD in
+                        children.</a> But it can also affect adults.
+                    SPD commonly affects people with neurodevelopmental and neurodivergent conditions, like autism
+                    spectrum disorder and attention-deficit/hyperactivity disorder (ADHD). But you can also have SPD
+                    without any other condition.
+                </p>
+                <p>
+                    Currently, SPD isn't an official medical diagnosis. But providers recognize the benefits of
+                    identifying SPD and using therapy to manage it, especially if it affects your ability to function
+                    day to day. Occupational therapists commonly see and treat children and adults with sensory
+                    processing problems.
+                </p>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="spd-types">
+                <h3>Types of Sensory Processing Disorder</h3>
+                <p>
+                    There are different types of sensory processing disorders, including:
+                </p>
+                <ul>
+                    <li><a href="#sensory-over-responsivity">Sensory Over-Responsivity / Hyper Sensitivity</a><br />
+                    </li>
+                    <li><a href="#sensory-under-responsivity">Sensory Under-Responsivity / Hypo Sensitivity</a><br />
+                    </li>
+                    <li><a href="#sensory-craving">Sensory Craving</a><br /></li>
+                    <li><a href="#sensory-discrimination-disorder">Sensory Discrimination Disorder</a><br /></li>
+                    <li><a href="#postural-disorder">Postural Disorder</a><br /></li>
+                    <li><a href="#dyspraxia">Dyspraxia</a><br /></li>
+                </ul>
+                <hr class="little" />
+                <article id="sensory-over-responsivity">
+                    <b>Sensory Over-Responsivity (SOR) / Hyper Sensitivity</b>
+                    <p>
+                        Here, you need far less sensory information than usual for it to have a profound impact.
+                        You may feel easily overwhelmed, distressed, or physically uncomfortable from ordinary sensory
+                        information.
+                        You may actively avoid certain inputs, become highly defensive, or experience a
+                        "fight-or-flight"
+                        reaction to daily stimuli.
+                    </p>
+                    <section>
+                        <b><em>Tactile (Touch)</em></b>
+                        <ul>
+                            <li>Distressed by textures: Expresses intense discomfort or refuses to wear certain fabrics,
+                                itchy tags, or stiff clothing.</li><br />
+                            <li>Avoids getting messy: Distressed by having sticky hands, mud, glue, or paint on the
+                                skin, wanting to wipe it off immediately.</li><br />
+                            <li>Exaggerated pain response: Reacts with extreme distress to minor scrapes, tiny cuts, or
+                                gentle medical injections.</li><br />
+                            <li>Dislikes unexpected contact: Pulls away, flinches, or reacts aggressively when touched
+                                gently or brushed against from behind.</li><br />
+                            <li>Intolerant of grooming: Experiences intense dread or panic during hair cutting, nail
+                                clipping, face washing, or teeth brushing.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Auditory (Hearing)</em></b>
+                        <ul>
+                            <li>Distressed by sudden noises: Covers ears or panics at everyday sounds like flushing
+                                toilets, vacuum cleaners, sirens, or clapping.</li><br />
+                            <li>Distracted by background hums: Constantly notices and complains about low noises others
+                                ignore, like a refrigerator or AC unit.</li><br />
+                            <li>Overwhelmed in crowds: Becomes irritable, anxious, or completely shuts down in noisy,
+                                echoing environments like cafeterias or malls.</li><br />
+                            <li>Inability to screen out sounds: Cannot focus on a single speaker if there is any other
+                                faint conversation or noise happening in the room.</li><br />
+                            <li>Demands total quiet: Frequently asks others to lower their voices, mute electronics, or
+                                stop making repetitive minor sounds (like ticking clocks).</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Visual (Sight)</em></b>
+                        <ul>
+                            <li>Extremely sensitive to light: Squints, covers eyes, or gets headaches from normal
+                                sunlight, fluorescent office lighting, or bright screens.</li><br />
+                            <li>Overstimulated by clutter: Becomes anxious, distracted, or visually overwhelmed in rooms
+                                with busy wall decor, messy shelves, or bright patterns.</li><br />
+                            <li>Avoids direct eye contact: Finds looking directly at faces or eyes intensely
+                                overwhelming or physically uncomfortable.</li><br />
+                            <li>Triggered by movement: Easily distracted or agitated by moving objects in peripheral
+                                vision, like a ceiling fan or passing cars.</li><br />
+                            <li>Shields vision: Frequently wears sunglasses indoors, pulls hats low, or covers eyes to
+                                block out standard room lighting.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Gustatory &amp; Olfactory (Taste &amp; Smell)</em></b>
+                        <ul>
+                            <li>Extremely picky eater: Restricts diet to very specific textures or bland foods, gagging
+                                on mixed textures, spices, or certain ingredients.</li><br />
+                            <li>Heightened smell detection: Notices subtle odors long before anyone else, often feeling
+                                nauseated by faint smells.</li><br />
+                            <li>Gags at ordinary scents: Experiences intense physical aversion or gagging from perfumes,
+                                scented candles, cleaning chemicals, or cooking food.</li><br />
+                            <li>Avoids specific locations: Refuses to enter specific environments (like fish markets,
+                                public bathrooms, or restaurants) due to concentrated odors.</li><br />
+                            <li>Extreme temperature sensitivity: Refuses to eat or drink anything unless it has cooled
+                                down completely or reached an exact, mild temperature.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Vestibular &amp; Proprioceptive (Movement &amp; Body Position)</em></b>
+                        <ul>
+                            <li>Fear of unstable surfaces: Becomes highly anxious or refuses to walk on uneven ground,
+                                thick grass, sand, or slippery tiles.</li><br />
+                            <li>Motion sickness: Experiences nausea, dizziness, or intense anxiety from swings,
+                                elevators, moving cars, or escalators.</li><br />
+                            <li>Fear of feet leaving ground: Panics when tipped backward, lifted, or when participating
+                                in activities where feet are suspended.</li><br />
+                            <li>Protective body positioning: Moves rigidly and cautiously, often holding onto walls or
+                                handrails to avoid any risk of falling.</li><br />
+                            <li>Dislikes rough play: Actively avoids any fast-moving games, tumbling, spinning, or
+                                unpredictable physical activities.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                </article>
+                <article id="sensory-under-responsivity">
+                    <b>Sensory Under-Responsivity (SUR) / Hypo Sensitivity</b>
+                    <p>
+                        Here, you need more sensory information than usual for it to have an impact. You may be unaware
+                        of sensory information and/or have a delay before responding, compared to most people. You may
+                        purposely seek out sensory input (sensory craving).
+                    </p>
+                    <section>
+                        <b><em>Tactile (Touch)</em></b>
+                        <ul>
+                            <li>Does not notice when hands, face, or clothes are dirty, wet, or sticky.</li><br />
+                            <li>Shows remarkably little reaction to painful cuts, scrapes, bruises, or injections.</li>
+                            <br />
+                            <li>Fails to notice if someone touches them gently on the shoulder or arm from behind.</li>
+                            <br />
+                            <li>Can wear shoes on the wrong feet or clothing twisted inside-out without noticing.</li>
+                            <br />
+                            <li>Doesn't register temperature changes, often ignoring extreme cold or heat.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Auditory (Hearing)</em></b>
+                        <ul>
+                            <li>Fails to respond when their name is called, looking like they are ignoring you.</li>
+                            <br />
+                            <li>Needs verbal instructions repeated multiple times before taking any action.</li><br />
+                            <li>Appears oblivious to loud, sudden background noises that startle other people.</li>
+                            <br />
+                            <li>Speaks in an unusually quiet voice or doesn't realize how loud they are being.</li>
+                            <br />
+                            <li>Appears to prefer a completely silent environment, rarely initiating sounds or talk.
+                            </li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Visual (Sight)</em></b>
+                        <ul>
+                            <li>Stares blankly into space for long periods, appearing checked out.</li><br />
+                            <li>Frequently misses objects directly in front of them or fails to notice new room decor.
+                            </li><br />
+                            <li>Struggles to track moving objects visually (e.g., catching a slow-moving ball).</li>
+                            <br />
+                            <li>Misses written details on a whiteboard, page, or signs in their direct path.</li><br />
+                            <li>Finds it difficult to distinguish between similar colors, shapes, or hidden figures.
+                            </li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Gustatory &amp; Olfactory (Taste &amp; Smell)</em></b>
+                        <ul>
+                            <li>Prefers extremely bland foods and shows zero interest in spices or flavor variety.</li>
+                            <br />
+                            <li>Cannot distinguish between different tastes or identify what they are eating
+                                blindfolded.</li><br />
+                            <li>Fails to notice strong odors like smoke, gas, spoiled food, or heavy perfumes.</li>
+                            <br />
+                            <li>Frequently eats spoiled or dangerously hot/cold food without noticing the issue.</li>
+                            <br />
+                            <li>Fails to smell cleaning chemicals or soaps that make others cough or sneeze.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Vestibular &amp; Proprioceptive (Movement &amp; Body Position)</em></b>
+                        <ul>
+                            <li>Appears sluggish, lethargic, or slumps heavily over a desk or table while sitting.</li>
+                            <br />
+                            <li>Frequently drops items, trips over flat surfaces, or bumps into doorways.</li><br />
+                            <li>Fails to notice when their body is slipping off a chair or tilting off balance.</li>
+                            <br />
+                            <li>Seems to have weak muscles, frequently complaining of being "too tired" to stand up.
+                            </li><br />
+                            <li>Struggles to learn new physical coordinates or sequences (e.g., riding a bike).</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                </article>
+                <article id="sensory-craving">
+                    <b>Sensory Craving (SC)</b>
+                    <p>
+                        In this type, you need and seek out sensory information for stimulation. But getting the
+                        stimulation results in disorganization and doesn't satisfy the craving.
+                    </p>
+                    <section>
+                        <b><em>Tactile (Touch)</em></b>
+                        <ul>
+                            <li>Constantly touches everything and everyone, even when told it is inappropriate.</li>
+                            <br />
+                            <li>Rubs hands obsessively over textures like velvet, rough surfaces, or hair.</li><br />
+                            <li>Prefers tight, heavy clothing, thick blankets, or squeezed hugs to feel grounded.</li>
+                            <br />
+                            <li>Intentionally seeks out messy play like mud, shaving cream, and sticky glue.</li><br />
+                            <li>Rubs skin aggressively against walls, furniture, or carpets for tactile friction.</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Auditory (Hearing)</em></b>
+                        <ul>
+                            <li>Turns up television, tablet, or music volumes to the maximum level possible.</li><br />
+                            <li>Constantly makes loud noises, hums, chants, or screams to fill silent spaces.</li><br />
+                            <li>Seeks out chaotic, noisy environments like arcade rooms or crowded festivals.</li><br />
+                            <li>Intentionally bangs doors, drops objects, or slams toys together to hear the impact.
+                            </li><br />
+                            <li>Prefers listening to repetitive, heavy bass lines or fast, jarring auditory tracks.</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Visual (Sight)</em></b>
+                        <ul>
+                            <li>Stares directly into bright lights, spinning fans, or moving screens for hours.</li>
+                            <br />
+                            <li>Is deeply attracted to vibrant, flashing, neon, or rapidly shifting color displays.</li>
+                            <br />
+                            <li>Moves fingers, strings, or objects rapidly back and forth right in front of their eyes.
+                            </li><br />
+                            <li>Loves looking at complex geometric patterns, visually cluttered layouts, or optical
+                                illusions.</li><br />
+                            <li>Constantly seeks out visually chaotic environments like laser tag arenas or time square
+                                setups.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Gustatory &amp; Olfactory (Taste &amp; Smell)</em></b>
+                        <ul>
+                            <li>Constantly craves intensely spicy, sour, salty, or burning hot/ice-cold foods.</li>
+                            <br />
+                            <li>Frequently licks or chews on non-food objects like shirt collars, pens, or toys.</li>
+                            <br />
+                            <li>Deliberately smells items like markers, gasoline, dirty shoes, or garbage bins.</li>
+                            <br />
+                            <li>Stuffs their mouth entirely full of food beyond a safe swallowing capacity.</li><br />
+                            <li>Prefers highly carbonated, fizzy drinks or foods with highly abrasive crunch.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Vestibular &amp; Proprioceptive (Movement &amp; Body Position)</em></b>
+                        <ul>
+                            <li>Constantly spins in circles, swings aggressively, or hangs upside down without getting
+                                dizzy.</li><br />
+                            <li>Frequently jumps off furniture, crashes into walls, or wrestles aggressively.</li><br />
+                            <li>Stomps feet heavily when walking instead of stepping softly.</li><br />
+                            <li>Cannot sit still, continuously rocking, pacing, fidgeting, or shifting weight.</li>
+                            <br />
+                            <li>Purposefully takes dangerous physical risks on playground structures or heights.</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                </article>
+                <article id="sensory-discrimination-disorder">
+                    <b>Sensory Discrimination Disorder</b>
+                    <p>
+                        This type includes difficulty interpreting subtle qualities of sensory information. There are
+                        several subtypes. For example, auditory discrimination disorder makes it difficult to understand
+                        the things you hear.
+                    </p>
+                    <section>
+                        <b><em>Tactile Domain</em></b>
+                        <p>
+                            Children with tactile discrimination difficulties typically have difficulty determining what
+                            they touch "by feel"; they must see it (stereognosis). We use stereognosis many times a day.
+                            We just don't think about it because it comes to us automatically.
+                        </p>
+                        <p>For example:</p>
+                        <ul>
+                            <li>Buttoning a shirt or pants while holding cell phone to ear.</li><br />
+                            <li>Touching something got out of microwave to know if it's the right temperature.</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Proprioceptive Domain</em></b>
+                        <p>
+                            How do we choose "just the right amount" of tension or force required to interact with an
+                            object (e.g., how hard to lift to carry box up the stairs)? It is our proprioceptors that
+                            give us the information about how hard our muscles have to contract to accomplish the
+                            box-lifting task.
+                        </p>
+                        <p>
+                            If a child demonstrates difficulty in this area, he may show some of the following problems:
+                        </p>
+                        <ul>
+                            <li>Roughhousing to the point of someone getting hurt.</li><br />
+                            <li>Judging how much force to use when throwing a ball.</li><br />
+                            <li>Using gentle touch to pet an animal.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Vestibular Domain</em></b>
+                        <p>
+                            "The vestibular system helps determine where our head is in space, relative to gravity. If a
+                            child has difficulty with vestibular discrimination, he may not feel when he is starting to
+                            fall and will not be able to catch himself before he gets hurt."
+                        </p>
+                        <p>For example:</p>
+                        <ul>
+                            <li>Poor awareness of movement of body in space (gets disoriented easily).</li><br />
+                            <li>Knows he's falling, but can't tell which way and can't protect himself.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Auditory Domain</em></b>
+                        <p>
+                            Children with auditory discrimination challenges may be mislabeled with attention deficit
+                            hyperactivity disorder (ADHD) or disciplined for "never listening" because they appear to
+                            ignore what is said to them.
+                        </p>
+                        <p>
+                            It may be difficult for them to hear the difference between background noise and the teacher
+                            asking, "Take out your science books and turn to page 103."
+                        </p>
+                        <p>Symptoms may include:</p>
+                        <ul>
+                            <li>Talks too loudly or softly.</li><br />
+                            <li>Experiences confusion when given directions.</li><br />
+                            <li>Appears to ignore others.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Visual Domain</em></b>
+                        <p>
+                            Children with poor visual discrimination tend to have trouble in school. It may be difficult
+                            for them to "read" emotions or to recognize letters and symbols.
+                        </p>
+                        <p>Other symptoms may include difficulty with:</p>
+                        <ul>
+                            <li>Lining up numbers in a math problem.</li><br />
+                            <li>Scanning a page to find the keywords in a story.</li><br />
+                            <li>Judging the distance between oneself and an object or person.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Olfactory/Gustatory Domain</em></b>
+                        <p>
+                            Smell and taste discrimination do not cause as severe a social problem, so they are usually
+                            only treated when they occur with another sensory discrimination issue.
+                        </p>
+                        <p>For example:</p>
+                        <ul>
+                            <li>Difficulty telling the difference between things that are somewhat sweet and those that
+                                are too sweet.</li><br />
+                            <li>Cannot tell if bread is burning, but has general sense something is wrong.</li><br />
+                            <li>Does not know familiar smells (e.g., grandma's perfume, coffee shop you frequent).</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Interoceptive Domain</em></b>
+                        <p>
+                            Many functions of daily life depend on sensory messages from our body organs.
+                        </p>
+                        <p>Some examples include:</p>
+                        <ul>
+                            <li>Soreness you feel after a good abdominal workout.</li><br />
+                            <li>Sensation of being hungry or too full.</li><br />
+                            <li>Sensation of an upset stomach.</li><br />
+                            <li>Sensation of a full bladder.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                </article>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="postural-disorder">
+                <article>
+                    <b>Postural Disorder</b>
+                    <p>
+                        With this type, you have issues perceiving your body's position in space. You may have
+                        difficulty stabilizing your body during movement or at rest without core stability.
+                    </p>
+                    <section>
+                        <b><em>Tactile-Postural (Surface Interaction)</em></b>
+                        <ul>
+                            <li>Leans heavily against walls, doorframes, or people when standing in place.</li><br />
+                            <li>Requires constant physical contact with a table, desk, or floor to maintain an upright
+                                position.</li><br />
+                            <li>Needs to pull their knees up to their chest or tuck feet under their body to feel stable
+                                in a chair.</li><br />
+                            <li>Easily loses balance or falls over when the texture of the floor surface changes
+                                unexpectedly.</li><br />
+                            <li>Prefers lying flat on the floor over sitting upright during group or floor-time
+                                activities.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Auditory-Postural (Sound-Induced Balance Shifts)</em></b>
+                        <ul>
+                            <li>Tilts or drops the entire head downward when listening closely to a speaker.</li><br />
+                            <li>Startles so intensely at loud sounds that they physically lose balance or fall over.
+                            </li><br />
+                            <li>Sags or slumps their posture significantly when forced to listen to complex or long
+                                instructions.</li><br />
+                            <li>Struggles to keep their head upright and stable while tracking the source of a sound.
+                            </li><br />
+                            <li>Appears to have worse physical balance and coordination in noisy or loud environments.
+                            </li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Visual-Postural (Visual Anchoring)</em></b>
+                        <ul>
+                            <li>Slumps down or rests their head on their hand/desk while reading or writing.</li><br />
+                            <li>Loses physical balance completely when closing their eyes to wash their face or change
+                                clothes.</li><br />
+                            <li>Locks their gaze firmly onto a fixed object in the room just to stay standing upright.
+                            </li><br />
+                            <li>Tends to trip or tilt sideways whenever they look up at the ceiling or the sky.</li>
+                            <br />
+                            <li>Struggles to maintain a straight sitting or standing posture while tracking a moving
+                                object.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Oral-Postural (Core-Jaw Synergy)</em></b>
+                        <ul>
+                            <li>Sits or stands with an open mouth and slack jaw due to overall low muscle tone.</li>
+                            <br />
+                            <li>Tenses the neck, jaw, or facial muscles excessively to compensate for a weak, slumping
+                                core.</li><br />
+                            <li>Sticks their tongue out or clenches their jaw tightly when performing simple balance
+                                tasks.</li><br />
+                            <li>Experiences rapid postural slumping or slouching during meals or while chewing tough
+                                foods.</li><br />
+                            <li>Slumps forward instantly whenever their head tilts backward to drink from a cup.</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Vestibular &amp; Proprioceptive Postural (Core Muscle Tone)</em></b>
+                        <ul>
+                            <li>Appears to have "floppy" or weak muscles, frequently slumping heavily over desks or
+                                tables.</li><br />
+                            <li>Exhausts easily from brief periods of standing upright, constantly looking for a place
+                                to sit.</li><br />
+                            <li>Sits in a "W" position on the floor (knees together, feet flared out wide) to create a
+                                wider base.</li><br />
+                            <li>Struggles to stand on one foot or balance on a low curb without immediately falling
+                                over.</li><br />
+                            <li>Displays weak arm and leg strength, struggling to push heavy doors or lift basic
+                                objects.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                </article>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="dyspraxia">
+                <article>
+                    <b>Dyspraxia</b>
+                    <p>
+                        This version causes a wide range of issues with movement and coordination. It can affect your
+                        gross and/or fine motor skills.
+                    </p>
+                    <section>
+                        <b><em>Tactile (Touch / Fine Motor Control)</em></b>
+                        <ul>
+                            <li>Struggles significantly with fine motor tasks like tying shoelaces, buttoning shirts, or
+                                using zippers.</li><br />
+                            <li>Holds pencils, crayons, or utensils with an awkward, inefficient, or overly tight grip.
+                            </li><br />
+                            <li>Has great difficulty cutting accurately along lines with scissors.</li><br />
+                            <li>Tears paper when erasing or writes with highly inconsistent letter sizes and spacing.
+                            </li><br />
+                            <li>Fumbles small objects like coins, keys, or buttons, frequently dropping them.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Auditory-Motor (Rhythm &amp; Timing)</em></b>
+                        <ul>
+                            <li>Struggles to clap, march, or move their body in sync with a musical beat.</li><br />
+                            <li>Has difficulty following a fast sequence of verbal movement commands (e.g., "jump twice,
+                                then turn around").</li><br />
+                            <li>Experiences a noticeable delay between hearing a physical command and starting the
+                                movement.</li><br />
+                            <li>Cannot easily mimic a rhythm or pattern tapped out by someone else.</li><br />
+                            <li>Struggles with speech articulation or stuttering due to poor coordination of mouth
+                                muscles.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Visual-Spatial Motor (Coordination)</em></b>
+                        <ul>
+                            <li>Frequently misses, drops, or gets hit by a slow-moving ball when trying to catch it.
+                            </li><br />
+                            <li>Struggles to copy shapes, letters, or geometric drawings from a whiteboard onto paper.
+                            </li><br />
+                            <li>Frequently misjudges the distance of objects, bumping into tables, doorframes, or walls.
+                            </li><br />
+                            <li>Finds it incredibly difficult to pour liquids into a cup without spilling them over the
+                                edge.</li><br />
+                            <li>Experiences anxiety or confusion when navigating new physical layouts or crowded spaces.
+                            </li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Oral-Motor (Praxis)</em></b>
+                        <ul>
+                            <li>Frequently drools, loses food from their mouth, or struggles to use a drinking straw.
+                            </li><br />
+                            <li>Moves the entire head or body when trying to move just the tongue or jaw.</li><br />
+                            <li>Struggles to blow bubbles, whistle, or mimic funny facial expressions on command.</li>
+                            <br />
+                            <li>Finds it difficult to chew complex textures, often pocketing food inside their cheeks.
+                            </li><br />
+                            <li>Frequently bites their own tongue, inside of the cheek, or lips accidentally while
+                                eating.</li><br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                    <section>
+                        <b><em>Gross Motor Planning (Whole Body)</em></b>
+                        <ul>
+                            <li>Struggles to learn multi-step physical skills like riding a bike, swimming, or skipping.
+                            </li><br />
+                            <li>Appears visibly awkward, rigid, or uncoordinated when running, jumping, or climbing.
+                            </li><br />
+                            <li>Cannot easily coordinate the two sides of the body (e.g., pumping legs on a swing).</li>
+                            <br />
+                            <li>Frequently trips over their own feet or flat surfaces for no apparent reason.</li><br />
+                            <li>Struggles to replicate a dance move or physical pose demonstrated by an instructor.</li>
+                            <br />
+                        </ul>
+                    </section>
+                    <hr class="little" />
+                </article>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="spd-diagnosis">
+                <h3>Recognition and Diagnosis</h3>
+                <p>
+                    As SPD isn't yet an official medical condition, it tends to be under-diagnosed due to a lack of
+                    precise diagnostic criteria. But healthcare providers are recognizing it — and the benefits of
+                    treating it — more and more.
+                </p>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="recognising-spd-in-children">
+                <h3>Recognising Sensory Processing Issues in Children</h3>
+                <p>
+                    Sensory processing issues are often first recognized during the toddler years, when parents notice
+                    that a child has an unusual aversion to noise, light, shoes that are deemed too tight and clothes
+                    that are irritating.
+                </p>
+                <p>
+                    They may scream when touched. They may recoil from the textures of certain foods. But others seem
+                    unresponsive to anything around them. They may fail to respond to extreme heat or cold or even pain.
+                    They may also notice clumsiness and trouble climbing stairs, and difficulty with fine motor skills
+                    like wielding a pencil and fastening buttons.
+                </p>
+                <p>
+                    What parents often notice first is odd behaviors and wild mood swings, strange at best, upsetting at
+                    worst. Often it's an outsized reaction to a change in environment — a radical, inexplicable shift in
+                    the child's behavior.
+                </p>
+                <p>
+                    For instance, a first-grader may do fine in a quiet setting with a calm adult. But place that child
+                    in a grocery store filled with an overload of visual and auditory stimulation and you might have the
+                    makings of an extreme tantrum, one that's terrifying for both the child and parent.
+                </p>
+                <blockquote>
+                    "These kids' temper tantrums are so intense, so prolonged, so impossible to stop once they've
+                    started, you just can't ignore it."
+                </blockquote>
+                <p>
+                    Another response to being overwhelmed is to flee. If a child dashes out across the playground or
+                    parking lot, oblivious to the danger, that's a big red flag that he may be heading away from
+                    something upsetting or toward an environment or sensation that will calm his system.
+                </p>
+                <p>
+                    Or a child might become aggressive when in sensory overload. They're actually having a neurological
+                    "panic" response to everyday sensations the rest of us take for granted.
+                </p>
+                <p>
+                    Some kids on the spectrum are known to wander to water, too often with deadly results. One theory is
+                    that water offers input they crave because of sensory issues.
+                </p>
+                <p>
+                    Not all sensory kids do this, but many gravitate toward the sensations and environments they find
+                    calming or stimulating. Their self-regulation is not great, so safety takes a back seat to their
+                    need to get that input or calming experience.
+                </p>
+                <p>
+                    Some adults may not realise a child has sensory processing issues and negatively interpret their
+                    behaviour.
+                </p>
+                <blockquote>
+                    "If you're a child who is oversensitive to certain sensations, you are not only likely to be anxious
+                    or irritable, even angry or fearful, you're likely to be called 'picky' and 'oversensitive.'
+                </blockquote>
+                <blockquote>
+                    If you rush away because you're anxious or you're over-stimulated and not using your executive
+                    function well because your body has such a powerful need to get away, you're 'impulsive.'
+                </blockquote>
+                <blockquote>
+                    If you have trouble with planning and executing your movements due to poor body awareness and poor
+                    organization in the motor areas of the brain, you're 'clumsy.'
+                </blockquote>
+                <blockquote>
+                    Because you're distracted by your sensory issues and trying to make sense of it all, you may be
+                    developmentally delayed in some ways, making you a bit 'immature' or young for your age."
+                </blockquote>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="classroom-planning-routines">
+                <h3>Classroom Planning, Schedules, and Routines</h3>
+                <ul>
+                    <li>Have a consistent daily routine.</li><br />
+                    <li>Give advance notice when the routine changes.</li><br />
+                    <li>Build in brain breaks throughout the day.</li><br />
+                    <li>Establish clear starting and ending times for tasks.</li><br />
+                    <li>Post visual schedules, directions, to-do lists, and classroom expectations. Be sure students see
+                        them.</li><br />
+                    <li>Use visuals with pictures of sensory input choices. (Print a PDF of options.)</li><br />
+                </ul>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="building-self-regulation-skills">
+                <h3>Building Self-Regulation Skills</h3>
+                <ul>
+                    <li>Provide a quiet work space or "calm down" area.</li><br />
+                    <li>Seat the student away from doors, windows, or buzzing lights.</li><br />
+                    <li>
+                        Adjust the desk and chair so the student's feet are flat on the floor and hips are at a
+                        90-degree angle.
+                        Or put a footstool under the desk.
+                    </li><br />
+                    <li>
+                        Let the student use alternative seating.
+                        Try an exercise ball chair, wobble stool, or stand-up desk.
+                    </li><br />
+                    <li>
+                        Consult with the occupational therapist (OT) about attaching a stretchy exercise band to the
+                        chair legs
+                        or desk for students who need to bounce their feet.
+                    </li><br />
+                    <li>
+                        Let the student work in a different position, like lying on the floor using a clipboard or at an
+                        easel.
+                    </li><br />
+                    <li>
+                        Provide a weighted lap pad, weighted vest, compression vest, air-filled seat cushion,
+                        or other OT-approved sensory tools.
+                    </li><br />
+                    <li>Provide earplugs or noise-muffling headphones.</li><br />
+                    <li>
+                        Let the student use a sensory tool, like a stress ball or a fidget spinner.
+                    </li><br />
+                    <li>
+                        Have chewing gum available. Or attach a chewable item to the end of a pencil.
+                    </li><br />
+                    <li>
+                        Let the student sit on a carpet square, in a beanbag chair, or in a chair during group seating.
+                    </li><br />
+                    <li>
+                        Let the student move as needed within a space outlined in tape or at a seat to the side.
+                    </li><br />
+                    <li>
+                        Work with the student to come up with nonverbal signals to use when in need of a break.
+                    </li><br />
+                    <li>
+                        Create a proactive behavior plan for handling sensory triggers.
+                    </li><br />
+                    <li>
+                        Warn the student when there will be loud noises like bells, announcements, or planned fire
+                        alarms.
+                    </li><br />
+                    <li>
+                        Allow the student to ask for breaks to promote self-regulation.
+                    </li><br />
+                </ul>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+            <section id="instructions-and-assignments">
+                <h3>Giving Instructions and Completing Assignments</h3>
+                <ul>
+                    <li>
+                        Reduce the need for handwriting. For example, use fill-in-the-blank questions instead of
+                        short-answer questions.
+                    </li><br />
+                    <li>
+                        Allow extra time for writing if a student has motor skills fatigue or trouble with
+                        proprioception.
+                    </li><br />
+                    <li>
+                        Let the student use speech-to-text software or a computer.
+                    </li><br />
+                    <li>
+                        Reduce the amount of information on a page.
+                    </li><br />
+                    <li>
+                        Provide colored overlays for reading to reduce visual distraction.
+                    </li><br />
+                    <li>
+                        Use blank pieces of paper to cover all but a few of the questions on a page.
+                    </li><br />
+                    <li>
+                        Use manila folders as a screen to block visual distractions.
+                    </li><br />
+                    <li>
+                        Offer pencil grips, slant boards, and bold- or raised-line paper for writing.
+                    </li><br />
+                    <li>
+                        Use a highlighter or sticky notes to help the student stay focused.
+                    </li><br />
+                    <li>
+                        Allow the student to listen to music while working to keep focused and regulated.
+                    </li><br />
+                </ul>
+            </section>
+            <br />
+            <hr class="light" />
+            <br />
+        </section>
+        <div class="side-menu">
+            <a class="toggler" href="#" onclick="document.body.classList.toggle('active-state')">
+                <span>x</span>
+            </a>
+            <ul>
+                <li><a class="active" href="./index.html">NeuroDiversity</a></li>
+                <li><a href="./asdpage.html">Autism</a></li>
+                <li><a href="./adhdpage.html">ADHD</a></li>
+                <li><a href="./spdpage.html">Sensory Processing Disorder</a>
+                </li>
+                <li><a href="./ldspage.html">Learning Disabilities</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="./index.html">NeuroDiversity</a>
+            <a href="./asdpage.html">Autism</a>
+            <a href="./adhdpage.html">ADHD</a>
+            <a href="./spdpage.html">Sensory Processing Disorder</a>
+            <a href="./ldspage.html">Learning Disabilities</a>
+        </div>
+        <br />
+        <br />
+        <div class="footer-text">
+            © 2026 tripleAidiot. All rights reserved.
+        </div>
+    </footer>
+    <script src="ndtotal.js"></script>
+</body>
+
+</html>
